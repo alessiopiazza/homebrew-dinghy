@@ -4,7 +4,7 @@ class Dinghy < Formula
   url "https://github.com/paolomainardi/dinghy.git", :tag => "v4.4.3-fork-2", :revision => "a18d9911eef7a7021ead05f5fee004203759baa2"
   head "https://github.com/paolomainardi/dinghy.git", :branch => :master
 
-  depends_on "homebrew/boneyard/unfs3"
+  depends_on "paolomainardi/homebrew-dinghy/unfs3"
 
   def install
     if head?
